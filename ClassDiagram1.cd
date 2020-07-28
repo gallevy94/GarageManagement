@@ -1,0 +1,202 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="B19_Ex03_Aviv_315529131_Gal_205431141.ElectricEngine">
+    <Position X="3.75" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Energy\ElectricEngine.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="B19_Ex03_Aviv_315529131_Gal_205431141.Engine">
+    <Position X="0.75" Y="0.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAABAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Energy\Engine.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="B19_Ex03_Aviv_315529131_Gal_205431141.FuelEngine">
+    <Position X="0.5" Y="3.75" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Properties" Collapsed="true" />
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Enum Name="B19_Ex03_Aviv_315529131_Gal_205431141.FuelEngine.eFuelTypes" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Energy\FuelEngine.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AABAAAAAAAAAAAAAAAAAAAAAAAAAAAAQEAAAAAAAAAA=</HashCode>
+      <FileName>Energy\FuelEngine.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="B19_Ex03_Aviv_315529131_Gal_205431141.ElectricMotorcycle">
+    <Position X="1.75" Y="7.75" Width="2" />
+    <Compartments>
+      <Compartment Name="Properties" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>CACAIAAAAAAAAAAAAAAAAAAAAQAQAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Motorcycle\ElectricMotorcycle.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="B19_Ex03_Aviv_315529131_Gal_205431141.FuelMotorcycle">
+    <Position X="4.25" Y="7.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AABAIAAAAAAAAEAAAAAAAAAAAAAAAAAQAAAQAAAAAAA=</HashCode>
+      <FileName>Motorcycle\FuelMotorcycle.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="B19_Ex03_Aviv_315529131_Gal_205431141.Motorcycle">
+    <Position X="2.75" Y="3" Width="2" />
+    <Compartments>
+      <Compartment Name="Properties" Collapsed="true" />
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Enum Name="B19_Ex03_Aviv_315529131_Gal_205431141.Motorcycle.eLicenseType" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Motorcycle\Motorcycle.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAAAABAAAAAAAEAAAAoAAAAAAACAAAAAEAgAAAEAA=</HashCode>
+      <FileName>Motorcycle\Motorcycle.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="B19_Ex03_Aviv_315529131_Gal_205431141.BuildVehicle">
+    <Position X="13" Y="3.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Other\BuildVehicle.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="B19_Ex03_Aviv_315529131_Gal_205431141.Garage">
+    <Position X="15.5" Y="0.75" Width="2" />
+    <Compartments>
+      <Compartment Name="Properties" Collapsed="true" />
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Class Name="B19_Ex03_Aviv_315529131_Gal_205431141.Garage.VehiclesInGarage">
+        <Compartments>
+          <Compartment Name="Properties" Collapsed="true" />
+          <Compartment Name="Nested Types" Collapsed="false" />
+        </Compartments>
+        <NestedTypes>
+          <Enum Name="B19_Ex03_Aviv_315529131_Gal_205431141.Garage.VehiclesInGarage.eStateInGarage" Collapsed="true">
+            <TypeIdentifier>
+              <NewMemberFileName>Other\Garage.cs</NewMemberFileName>
+            </TypeIdentifier>
+          </Enum>
+        </NestedTypes>
+        <TypeIdentifier>
+          <NewMemberFileName>Other\Garage.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAQAEAAACAAAAEAEAAAACAAAAQAJAAQAg=</HashCode>
+      <FileName>Other\Garage.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="B19_Ex03_Aviv_315529131_Gal_205431141.ValueOutOfRangeException">
+    <Position X="15.25" Y="8.5" Width="2.25" />
+    <Compartments>
+      <Compartment Name="Properties" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAIAgAAAAAAAAAAAAIAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>Other\ValueOutOfRangeException.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="B19_Ex03_Aviv_315529131_Gal_205431141.Vehicle">
+    <Position X="6.5" Y="0.75" Width="2" />
+    <Compartments>
+      <Compartment Name="Properties" Collapsed="true" />
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Enum Name="B19_Ex03_Aviv_315529131_Gal_205431141.Vehicle.eType" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Other\Vehicle.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAIAAEAAQAEAAAAEAAAAAEEAAAAAAApQIAAAgBgBAgA=</HashCode>
+      <FileName>Other\Vehicle.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="B19_Ex03_Aviv_315529131_Gal_205431141.VehicleParameters">
+    <Position X="12.75" Y="1.5" Width="2" />
+    <Compartments>
+      <Compartment Name="Properties" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAABAAAAAAAAAAEAAACAAABAAAAAAAAAAAAA=</HashCode>
+      <FileName>Other\VehicleParameters.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="B19_Ex03_Aviv_315529131_Gal_205431141.Wheel">
+    <Position X="13" Y="5.25" Width="2" />
+    <Compartments>
+      <Compartment Name="Properties" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAABAAAAACAAAAACAIQAAAAAAAAQAAAEAAAAAg=</HashCode>
+      <FileName>Other\Wheel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="B19_Ex03_Aviv_315529131_Gal_205431141.Car">
+    <Position X="9.75" Y="6.25" Width="2" />
+    <Compartments>
+      <Compartment Name="Properties" Collapsed="true" />
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Enum Name="B19_Ex03_Aviv_315529131_Gal_205431141.Car.eColor" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Car\Car.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+      <Enum Name="B19_Ex03_Aviv_315529131_Gal_205431141.Car.eDoorsAmount" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Car\Car.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAAAAAAAAEAAAAgAAAAAAAAAAAAAABgAgAEAA=</HashCode>
+      <FileName>Car\Car.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="B19_Ex03_Aviv_315529131_Gal_205431141.ElectricCar">
+    <Position X="12.5" Y="8.25" Width="2" />
+    <Compartments>
+      <Compartment Name="Properties" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>CACAIAAAAAAAAAAAAAAAAAAAAQAQAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Car\ElectricCar.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="B19_Ex03_Aviv_315529131_Gal_205431141.FuelCar">
+    <Position X="7.75" Y="8.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAIAAAAAAAAEAAAAAAAAAAAAAAAAAQAAAQAAAAAAA=</HashCode>
+      <FileName>Car\FuelCar.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="B19_Ex03_Aviv_315529131_Gal_205431141.FuelTrack">
+    <Position X="10" Y="1.25" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AABAIAAAIAAAAEAEAgAAgAAAAAAAAAAQAAAQgAAAEAA=</HashCode>
+      <FileName>Track\FuelTrack.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
